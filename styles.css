@@ -7,36 +7,30 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .header {
     background: #1F2937;
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    min-height: 30rem;
  }
-
-.header .wrapper {
+ 
+.wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-.wrapper {
-    max-width: 70rem;
+    max-width: 75%;
+    min-width: 5rem;
     margin-right: auto;
     margin-left: auto;
-    flex-wrap: wrap;
 }
 
-.header .wrapper .header-logo {
-    margin-top: 0.5rem;
-    margin-left: -10rem;
-    max-width: 10%;
-    max-height: 10%;
+.header-logo {
+    max-width: 15rem;
+    max-height: 5rem;
 }
-
-ul {
+.header-nav-links {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -45,6 +39,7 @@ ul {
 
 a {
     text-decoration: none;
+    
 }
 
 .hero-secondary {
