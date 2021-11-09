@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1F2937;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    margin-top: 0.5rem;
+    margin-left: -10rem;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-secondary {
+    font-size: 1.25em;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-box{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 4rem;
+    gap: 3.5rem;
+}
+
+.hero-box .left-side{
+    margin-top: 10rem;
+    max-width: 50%;
+}
+
+.hero-box .left-side .hero-header {
+    margin-bottom: 0.5rem;
+}
+
+.hero-box .left-side .btn{
+    background-color: #3882F6;
+    margin-top: 0.5rem;
+    padding: 1rem 2rem;
+    border-bottom-right-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hero-box .right-side{
+    max-width: 50%;
+}
+
+.hero-box .right-side .placeholder-img{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 2rem;
+}
+
+.headline {
+    display: flex;
+    margin-top: 100px;
+}
+
+/* .placeholder-img {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #6D757Eff;
+} */
+
+.button {
+    color: #3882F6;
+}
+
+.information-header {
+    font-size: 2.25em;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-background {
+    color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 2.25em;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
