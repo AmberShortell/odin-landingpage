@@ -29,7 +29,7 @@ body {
     flex-wrap: wrap;
 }
 
-.header-logo {
+.header .wrapper .header-logo {
     margin-top: 0.5rem;
     margin-left: -10rem;
     max-width: 10%;
