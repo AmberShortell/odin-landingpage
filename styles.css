@@ -65,12 +65,12 @@ a {
     margin-right: auto;
     margin-left: auto;
     padding-top: 4rem;
-    gap: 3.5rem;
+    gap: 10rem;
 }
 
 .hero-box .left-side{
-    margin-top: 10rem;
-    max-width: 50%;
+    margin-top: 5rem;
+    max-width: 60%;
 }
 
 .hero-box .left-side .hero-header {
@@ -92,8 +92,8 @@ a {
 }
 
 .hero-box .right-side .placeholder-img{
-    width: 500px;
-    height: 500px;
+    width: 120%;
+    height: 120%;
     margin-bottom: 2rem;
 }
 
