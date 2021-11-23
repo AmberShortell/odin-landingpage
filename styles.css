@@ -11,11 +11,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    background: #1F2937;
 }
 
 .header{
-    background: #1F2937;
-    min-height: 30rem;
+    /* background: #1F2937; */
+    /* min-height: 23vw; */
 }
  
 .wrapper{
