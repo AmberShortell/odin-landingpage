@@ -1,8 +1,8 @@
-*, *::before, *::after {
+*, *::before, *::after{
     box-sizing: inherit;
 } 
 
-html {
+html{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -13,27 +13,27 @@ body {
     margin: 0 auto;
 }
 
-.header {
+.header{
     background: #1F2937;
     min-height: 30rem;
 }
  
-.wrapper {
+.wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 60%;
+    max-width: 60%;
     margin-top: 1rem;
 }
 
-.header-logo {
+.header--logo {
     max-width: 10rem;
     max-height: 5rem;
 }
 
-.header-nav-links {
+.header--nav-links{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -41,41 +41,41 @@ body {
     font-weight: bold;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
-.hero--secondary {
+.hero--secondary{
     font-size: 1.25em;
     color: #E5E7EB;
 }
 
-.hero--main {
+.hero--main{
     font-size: 3rem;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.hero {
+.hero{
     border: 2px solid red;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    gap: 30%;
 }
 
-.hero__message {
+.hero--message{
     color: #F9FAF8;
     width: 40%;
 }
 
-.hero__message h2 {
+.hero--message h2, p{
     padding: 0;
     margin: 0 0 1rem;
 }
 
-.hero__message p {
-    padding: 0;
-    margin: 0 0 1rem;
+.hero--img__resize{
+    max-width: 100%;
+    max-height: auto;
 }
 
 .btn {
